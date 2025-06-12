@@ -1,7 +1,11 @@
-import React from "react";
+import { RegisterForm } from "@/components/RegisterForm";
 
-const RegisterPage = () => {
-  return <div>RegisterPage</div>;
+const LoginPage = () => {
+  return (
+    <div className="w-full h-screen flex items-center justify-center">
+      <RegisterForm />
+    </div>
+  );
 };
 
-export default RegisterPage;
+export default LoginPage;
